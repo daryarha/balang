@@ -1,0 +1,359 @@
+
+/*PRELOAD*/
+/*
+        .preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+}*/
+
+/*END OF PRELOAD*/
+
+
+/*GENERAL*/
+
+
+ body {
+     display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+ }
+ main {
+     flex: 1 0 auto;
+ }
+
+/*END OF GENERAL*/
+
+
+
+/*NAVBAR*/
+#nav-transp{
+    background: transparent;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.navbar-wrapper{
+    font-family: 'Raleway', sans-serif;
+}
+
+.brand-logo{
+    font-family: 'Lobster Two', cursive;
+}
+
+.log-link{
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.log-link li a:hover{
+    background: transparent;
+    background-color: transparent;
+}
+
+#side-nav{
+    color: blue;
+}
+
+#side-nav-user a,#side-nav-user i{
+  color: white;
+}
+
+
+
+.dropdown-content{
+  margin-top: 60px;
+  box-shadow: none;
+}
+
+
+@media (max-width: 909px) {
+
+.dropdown-content{
+  margin-top: 45px;
+}
+}
+
+.dropdown-content li a{
+  color: white;
+}
+
+.dropdown-content a:hover{
+  background-color: white !important;
+  color: #0D47A1 !important;
+}
+
+li a.dropdown-lostfound.active,li a.dropdown-account.active{
+  background-color: white;
+  color: #0D47A1 !important;
+}
+
+.dropdown-lostfound.active i{
+  color: #0D47A1 !important;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+
+.dropdown-account.active i{
+  color: #0D47A1 !important;
+}
+
+.dropdown-lostfound.active:hover,.dropdown-account:hover{
+  oolor: white !important;
+}
+
+
+
+/*INPUT FIELD SIDENAV*/
+
+.input-field #cari-side{
+    border-bottom: 1px solid #2196F3; 
+}
+  /* label color */
+   .input-field .label-cari-side {
+     color: #2196F3;
+   }
+   /* label focus color */
+   .input-field #cari-side:focus + .label-cari-side {
+     color: #2196F3;
+   }
+   /* label underline focus color */
+   .input-field #cari-side:focus {
+     border-bottom: 1px solid #2196F3;
+   }
+   /* valid color */
+   .input-field #cari-side.valid {
+     border-bottom: 1px solid #2196F3;
+   }
+   /* invalid color */
+   .input-field #cari-side.invalid {
+     border-bottom: 1px solid #2196F3;
+   }
+/*END OF INPUT FIELD SIDENAV*/
+
+/*END OF NAVBAR*/
+
+
+
+
+/*ANNOUNCEMENT*/
+
+#main-announcement{
+    text-align: center;
+    color: white;
+    font-family: Segoe Ui;
+}
+
+
+/*BRAND SEARCH*/
+
+#brand-search{
+    height: 100vh;
+    background: url('../img/9562.jpg') top fixed;
+}
+
+/*END OF BRAND SEARCH*/
+
+
+/*LOGO*/
+.logo{
+    font-family: 'Raleway', cursive;
+    text-align: center;
+    color: white;
+}
+/*END OF LOGO*/
+
+
+
+
+/*INPUT FIELD SEARCH CENTER*/
+
+.input-field #cari{
+    border-bottom: 1px solid white; 
+}
+  /* label color */
+   .input-field .label-cari {
+     color: white;
+   }
+   /* label focus color */
+   .input-field #cari:focus + .label-cari {
+     color: white;
+   }
+   /* label underline focus color */
+   .input-field #cari:focus {
+     border-bottom: 1px solid white;
+   }
+   /* valid color */
+   .input-field #cari.valid {
+     border-bottom: 1px solid white;
+     box-shadow: 0;
+   }
+   /* invalid color */
+   .input-field #cari.invalid {
+     border-bottom: 1px solid white;
+   }
+/*END OF INPUT FIELD SEARCH CENTER*/
+
+/*END OF ANNOUNCEMENT*/
+
+
+/*CATEGORY*/
+
+
+#category{
+    height: 110vh;
+    font-family: Segoe Ui;
+    text-align: center;
+}
+
+
+
+
+/*ICON*/
+
+
+    .caption-icon{
+        font-family: Segoe Ui, Century Gothic;
+        font-size: 23px;
+        font-weight: bold;
+        line-height: 0.1; 
+    }
+
+/*END OF ICON*/
+
+/*END OF CATEGORY*/
+
+
+
+/*TAB AND CARD*/
+
+    .tabs .tab a{
+        color:#1565c0;
+    } /*Black color to the text*/
+    
+    .tabs .indicator {
+        background-color: #1565c0;
+    } /*Color of underline*/
+
+    .card{
+    	margin: 5px;
+    }
+
+    .card-image > img{
+    	height: 233px;
+    }
+
+    .info{
+    	color: #1565C0 !important;
+    }
+
+    ul.pagination li.active{
+  background-color: #0D47A1;
+    }
+
+    .card .card-action{
+      border: 0;
+      font-family: Roboto, sans-serif;
+    }
+  
+    .card-content{
+      border: 0;
+    }
+
+    .card-reveal-wrap{
+      word-wrap: break-word;
+    }
+
+/*END OF TAB AND CARD*/
+
+/* FORM GENERAL */
+
+h4 div.title-form{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+ul.select-dropdown li span{
+  color: black;
+}
+
+.btn-file{
+  background-color: #0D47A1;
+  border-radius: 0;
+}
+
+.btn-file:hover,.btn-file:active,.btn-file:focus{
+  background-color: #1565c0;
+
+}
+
+   /* label focus color */
+   .input-field input[type=text]:focus + label,
+   .input-field textarea:focus + label{
+     color: #0D47A1;
+   }
+
+
+   .input-field input[type=text]:focus + label.active,
+   .input-field textarea:focus + label.active{
+     color: #0D47A1;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus,
+   .input-field textarea:focus {
+     border-bottom: 1px solid #0D47A1 !important;
+     box-shadow: 0 1px 0 0 #0D47A1 !important;
+   }
+/* END OF FORM */
+
+/*FOOTER*/
+
+footer{
+    height: 25%;
+}
+
+
+@media (max-width: 650px) {
+footer{
+    height: 40%;
+}
+}
+
+@media (max-width: 600px) {
+
+footer{
+    height: 50%;
+}
+}
+
+
+.img-footer{
+  height: 60px;
+}
+
+.fa::before{
+  font-size: 40px;
+  color: white;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.fa{
+  margin-bottom: 25px;
+}
+
+.line-msg{
+  font-size: 35px;
+  color: white;
+}
+
+/*END OF FOOTER*/
